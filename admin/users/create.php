@@ -48,9 +48,10 @@ include "../../path.php";
         </div>
         <div class="posts col-9">
             <div class="button row">
-                <a href="create.html" class="col-2 btn btn-success">Создать</a>
+                <a href="<?php echo BASE_URL . "admin/users/create.php";?>" class="col-3 btn btn-success">Создать</a>
                 <span class="col-1"></span>
-                <a href="index.html" class="col-2 btn btn-warning">Управление</a>
+                <a href="<?php echo BASE_URL . "admin/users/index.php";?>" class="col-3 btn btn-warning">Редактировать</a>
+
             </div>
             <div class="row title-table">
                 <h2>Создание пользователя</h2>

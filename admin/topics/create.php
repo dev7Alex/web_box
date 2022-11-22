@@ -48,9 +48,9 @@ include "../../path.php";
         </div>
         <div class="posts col-9">
             <div class="button row">
-                <a href="create.html" class="col-3 btn btn-success">Создать категорию</a>
+                <a href="<?php echo BASE_URL . "admin/topics/create.php";?>" class="col-3 btn btn-success">Создать</a>
                 <span class="col-1"></span>
-                <a href="index.html" class="col-3 btn btn-warning">Управлять категориями</a>
+                <a href="<?php echo BASE_URL . "admin/topics/index.php";?>" class="col-3 btn btn-warning">Редактировать</a>
             </div>
             <div class="row title-table">
                 <h2>Создать категорию</h2>
